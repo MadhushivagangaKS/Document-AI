@@ -1,0 +1,28 @@
+faiss_db:
+  collection_name: "document_portal"
+
+embedding_model:
+  model_name: "google"
+  model_type: "models/gemini-embedding-001"
+
+retriever:
+  top_k: 10
+
+llm:
+  groq:
+    provider: "groq"
+    model_name: "qwen/qwen3-32b"
+    temperature: 0
+    max_output_tokens: 2048
+
+  google:
+    provider: "google"
+    model_name: "gemini-2.0-flash"
+    temperature: 0
+    max_output_tokens: 2048
+
+  ollama:
+    provider: "ollama"
+    model_name: "nomic-embed-text"
+    temperature: 0
+    max_output_tokens: 2048

@@ -1,0 +1,10 @@
+env/
+document_portal.egg-info/
+.env
+venv/
+__pycache__/
+*.pyc
+logs/
+data/
+test.py
+archive
