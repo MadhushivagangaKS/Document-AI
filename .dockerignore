@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.git
+.gitignore
+*.log
+logs/
+data/
+document_portal.egg-info/
+archive/
+notebook/
+faiss_index/

@@ -2,8 +2,8 @@ faiss_db:
   collection_name: "document_portal"
 
 embedding_model:
-  model_name: "google"
-  model_type: "models/gemini-embedding-001"
+  provider: "google"
+  model_name: "gemini-embedding-001"
 
 retriever:
   top_k: 10
@@ -17,7 +17,7 @@ llm:
 
   google:
     provider: "google"
-    model_name: "gemini-2.0-flash"
+    model_name: "gemini-2.5-flash"
     temperature: 0
     max_output_tokens: 2048
 
