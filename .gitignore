@@ -9,3 +9,4 @@ data/
 test.py
 archive
 faiss_index/
+.DS_Store
